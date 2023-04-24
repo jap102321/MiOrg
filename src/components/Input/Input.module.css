@@ -1,0 +1,25 @@
+.input {
+  margin: 24px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input label {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-block-end: 8px;
+}
+.input input {
+  width: 100%;
+  padding: 30px 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border: none;
+  background-color: #fff;
+  outline-color: #6278f7;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input input::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
